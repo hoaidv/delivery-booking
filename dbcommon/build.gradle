@@ -1,0 +1,16 @@
+plugins {
+	id 'java-library'
+}
+
+dependencies {
+	api 'org.springframework:spring-jdbc'
+	api 'org.springframework.boot:spring-boot-starter-cassandra'
+	api 'org.springframework.boot:spring-boot-starter-data-redis'
+	api 'com.fasterxml.jackson.core:jackson-databind'
+	runtimeOnly 'org.postgresql:postgresql'
+
+	testImplementation 'org.junit.jupiter:junit-jupiter'
+	testImplementation 'org.mockito:mockito-junit-jupiter'
+	testImplementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
