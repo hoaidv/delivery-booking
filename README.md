@@ -26,3 +26,7 @@ See [setup](./SETUP.md) for details how to run this project locally.
 # Solution
 
 Solution explanation is provided separately.
+
+* This code only provides an overview of the architecture.
+* Not all explanation is demonstrated in this code - due to too many architectural decisions. The full solution will take much longer,
+  with many aspects to care about.
